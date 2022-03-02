@@ -1,0 +1,60 @@
+body {
+  font-family: 'Arial Black';
+}
+
+main {
+  display: flex;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  margin: 20px;
+}
+
+h3, p {
+  text-align: center;
+}
+
+.center {
+  border-radius: 3px black;
+  width: 60%;
+  height: 800px;
+  background-color: #837EEC;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.game {
+  width: 300px;
+  background-color: #E6C0EC;
+}
+
+.side {
+  width: 20%;
+  height: 800px;
+  background-color: #E6C0EC;
+}
+
+.player{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.change-button {
+background: #7B3881;
+border: none;
+cursor: pointer;
+font-family: 'Arial Black';
+font-size: 20px;
+padding: 12px;
+}
