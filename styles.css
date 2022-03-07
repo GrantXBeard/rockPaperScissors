@@ -1,9 +1,11 @@
 body {
   font-family: 'Arial Black';
+  color: white;
 }
 
 main {
   display: flex;
+  background-color: #837EEC;
 }
 
 h1 {
@@ -22,20 +24,49 @@ h3, p {
   text-align: center;
 }
 
-.center {
-  border-radius: 3px black;
+.mainPage {
   width: 60%;
   height: 800px;
-  background-color: #837EEC;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
-.game {
+.choose-fighter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 800px;
+  background-color: #7B3881;
+}
+
+.game-choice {
+  border: none;
+  color: white;
   width: 300px;
   background-color: #E6C0EC;
+  cursor: pointer;
+  transition: 100ms;
+}
+
+.game-choice:hover {
+  transform: scale(1.2);
+}
+
+.selection {
+  background: none;
+  border: none;
+  font-size: 100px;
+  outline: none;
+  cursor: pointer;
+  transition: 100ms;
+}
+
+.selection:hover {
+  transform: scale(1.2);
 }
 
 .side {
@@ -44,11 +75,11 @@ h3, p {
   background-color: #E6C0EC;
 }
 
-.player{
+/* .player{
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
 .change-button {
 background: #7B3881;
@@ -57,4 +88,8 @@ cursor: pointer;
 font-family: 'Arial Black';
 font-size: 20px;
 padding: 12px;
+}
+
+.hidden {
+  display: none;
 }
